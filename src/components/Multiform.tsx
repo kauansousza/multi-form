@@ -26,7 +26,7 @@ const Multiform = () => {
         <h1 className="font-Poppins text-4xl text-violet-100 font-bold tracking-widest pb-7">
           Formulário
         </h1>
-        <hr className="w-96 h-1 mb-10"></hr>
+        <hr className="lg:w-44 w-96 h-1 mb-10"></hr>
         {etapa === 1 && (
           <div className="flex flex-col justify-items-start">
             <label
