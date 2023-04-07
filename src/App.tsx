@@ -8,7 +8,7 @@ function App() {
     <div className="w-full h-screen flex flex-col justify-center bg-gradient-to-r from-violet-600 via-purple-700 to-violet-900">
       <Multiform />
       <div className="flex items-center flex-col justify-center ">
-      <footer className=" py-4 absolute bottom-0 w-11/12 rounded-t-2xl bg-violet-200">
+      <footer className=" py-4 absolute bottom-0 lg:w-2/3 xl:w-1/2 w-11/12 rounded-t-2xl bg-violet-200">
         <div className="container mx-auto px-4">
           <p className="text-sm text-violet-950 text-center">
             © 2023 Kauan Souza. Todos os direitos reservados. 

@@ -22,7 +22,7 @@ const Multiform = () => {
 
   return (
     <div className="flex items-center justify-center font-Poppins">
-      <div className="flex flex-col rounded-[2rem] justify-center items-center w-11/12 h-[25rem] drop-shadow-xl bg-violet-600">
+      <div className="flex flex-col rounded-[2rem] justify-center items-center w-11/12 lg:w-2/3 xl:w-1/2 h-[25rem] drop-shadow-xl bg-violet-600">
         <h1 className="font-Poppins text-4xl text-violet-100 font-bold tracking-widest pb-7">
           Formulário
         </h1>
