@@ -5,10 +5,10 @@ import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
 
 function App() {
   return (
-    <div className="overflow-hidden max-w-full max-h-full w-full h-screen flex flex-col justify-center bg-gradient-to-r from-violet-600 via-purple-700 to-violet-900">
+    <div className="max-w-screen max-h-screen w-screen h-screen flex flex-col justify-center bg-gradient-to-r from-violet-600 via-purple-700 to-violet-900">
       <Multiform />
       <div className="flex items-center flex-col justify-center lg:w-2/3 xl:w-1/2 w-11/12">
-      <footer className="py-4 absolute bottom-0 rounded-t-2xl bg-violet-200">
+      <footer className="py-4 max-h-screen absolute bottom-0 rounded-t-2xl bg-violet-200">
         <div className="container mx-auto px-4">
           <p className="text-sm text-violet-950 text-center">
             © 2023 Kauan Souza. Todos os direitos reservados. 
